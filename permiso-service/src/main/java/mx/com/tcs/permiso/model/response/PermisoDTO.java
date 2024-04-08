@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 /**
  * @author luis
@@ -14,6 +15,7 @@ import lombok.Setter;
 @Schema(name = "Permiso")
 @Setter
 @Getter
+@ToString
 public class PermisoDTO {
     /**
      * Identifier of Permiso data.
