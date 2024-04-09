@@ -31,9 +31,6 @@ public class PermisoServiceImpl implements  IPermisoService {
     }
     @Override
     public ResponseEntity<List<PermisoDTO>> listAll() {
-        if(getAllPermiso().isEmpty()){
-            return ResponseEntity.status(404).body(null);
-        }
         return ResponseEntity.ok(getAllPermiso());
     }
 
