@@ -23,6 +23,6 @@ public interface IApiDocPermiso {
             @ApiResponse(responseCode = "404", content = {@Content(schema = @Schema())}),
             @ApiResponse(responseCode = "500", content ={@Content(schema = @Schema())})
     })
-    @GetMapping("/permiso")
+    @GetMapping("/api/permiso")
     ResponseEntity<List<PermisoDTO>>getAll();
 }

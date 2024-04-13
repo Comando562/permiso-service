@@ -37,6 +37,7 @@ public class PermisoController implements IApiDocPermiso{
      * Endpoint used to get all records in Permiso entity.
      * @return a ResponseEntity of the list of Permiso object.
      */
+    @Override
     public ResponseEntity<List<PermisoDTO>> getAll() {
         return permisoService.listAll();
     }
