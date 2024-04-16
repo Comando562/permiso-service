@@ -4,7 +4,7 @@ import io.github.resilience4j.circuitbreaker.CircuitBreakerRegistry;
 import io.github.resilience4j.timelimiter.TimeLimiterConfig;
 import io.github.resilience4j.timelimiter.TimeLimiterRegistry;
 import mx.com.tcs.permiso.exception.ItemNotFoundException;
-import mx.com.tcs.permiso.model.Permiso;
+import mx.com.tcs.permiso.model.entity.Permiso;
 import mx.com.tcs.permiso.model.repository.PermisoRepository;
 import mx.com.tcs.permiso.model.response.PermisoDTO;
 import org.junit.jupiter.api.BeforeEach;
